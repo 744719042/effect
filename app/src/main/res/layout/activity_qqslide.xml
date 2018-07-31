@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.effect.widget.SlideMenu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/stars"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QQSlideActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:background="@color/colorAccent"
+                android:layout_width="match_parent"
+                android:layout_height="150dp" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:textSize="20sp"
+                android:padding="10dp"
+                android:textColor="@color/colorPrimary"
+                android:text="事发地点位于密云县不老屯镇黄土坎村南侧的密云水库水面。该村多名村民称，2011年8月17日上午8点多，一架直升机在村南的水库上空来回飞行，由于以前很少见到直升机，几名村民都十分新鲜地盯着飞机，“大家一边议论一边干活，不时还停下手看一会儿飞机”。
+    9点左右，这架直升机由西向东飞行，随后又掉转机头，转而由东向西飞行。村民马先生说，直升机从东面飞过来时，不再是平飞，机头开始向下倾斜，并且出现了越飞越低的情况，“我当时比较纳闷，以为它要降落，但周围根本没有能降落的地方”。这几位村民说，随后看到飞机的高度几乎低于附近山的高度。紧接着，飞机一头扎进水里。“出大事了，飞机摔了”，这几位村民都吃惊地大喊起来。他们回忆，这架直升机扎进水里之前，未见冒烟，掉入水中后，也未发生爆炸。几位村民想去救人，无奈没船，只得报警。
+    救援过程编辑
+    事发后上午10点左右，有村民发现，多艘快艇开到坠机位置，不断在水面搜索。有村民拿来望远镜观察，称看到赶到的快艇从水面拽上来一个人，随后很快开走。
+    警方将事发地周围的道路封闭
+    警方将事发地周围的道路封闭
+    下午1点多，大批救援人员集中在水库派出所码头。不多久，来自天津等地的救援人员也赶到码头，乘船前往事发水域救援搜索。据一名潜水员称，事发水域的水深在13米左右，水下能见度很低，潜水员只能靠摸索，给救援带来很大困难。两点的时候，一艘体积较大的船停在水面，有不少于5艘的小型快艇围绕在大船周围搜寻，快艇上救援人员所穿的橘黄色救生衣清晰可见。事发位置水深有10米以上，如果飞机坠入水中，搜索难度较大。
+    与此同时，多名飞行专家乘船前往事发水域。专家返回岸上后称，坠落的直升机机身向上、螺旋桨向下倒着扎在水中。救援队员在水下搜索，存在很大危险。
+    3点多，大批直升机残骸被运到码头，部分小件残骸被装入编织袋中，大件残骸则由专职工作人员直接搬走。残骸包括飞行员所戴的飞行帽、直升机座椅、直升机窗框。下午4点多，两扇直升机舱门被打捞出水，并迅速运到岸上。
+    救援进展编辑
+    上午10时，救援队伍救出1名机组人员，无生命危险。截至2011年8月17日22时，已打捞出2名人员遗体，还有2名失踪人员正在全力搜救中。 [2]
+    本次飞机的飞行员具有2600多个小时飞行记录，是一名经验丰富的优秀飞行员。被救起的机组成员姓李，刚调入飞行总队不久，获救后，其立即被送往密云县医院治疗。经急救人员现场检查，此人全身多处骨折，伤势较重。救援人员推测，这名成员在坠机前可能从直
+    升机上跳下，也可能是从飞机摔出。"
+                android:layout_height="wrap_content" />
+
+            <!--<ImageView-->
+                <!--android:id="@+id/mask_view"-->
+                <!--android:background="#99999999"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+        </FrameLayout>
+
+    </LinearLayout>
+</com.example.effect.widget.SlideMenu>

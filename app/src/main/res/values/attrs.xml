@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressView">
+        <attr name="progress_shape">
+            <enum name="round" value="0" />
+            <enum name="line" value="1" />
+        </attr>
+
+        <attr name="progress_type">
+            <enum value="0" name="text" />
+            <enum value="1" name="percent" />
+        </attr>
+
+        <attr name="progress_max_count" format="integer" />
+        <attr name="progress_current" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="CircleImageView">
+        <attr name="circle_width" format="dimension" />
+        <attr name="circle_color" format="color" />
+        <attr name="android:src" />
+    </declare-styleable>
+</resources>
