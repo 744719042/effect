@@ -20,4 +20,9 @@
         <attr name="circle_color" format="color" />
         <attr name="android:src" />
     </declare-styleable>
+
+    <declare-styleable name="PercentFrameLayout">
+        <attr name="layout_widthRatio" format="float" />
+        <attr name="layout_aspect" format="float" />
+    </declare-styleable>
 </resources>

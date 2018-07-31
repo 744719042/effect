@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.effect.widget.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#ffffff"
+    tools:context=".PercentActivity">
+
+    <TextView
+        android:text="透明状态栏"
+        app:layout_widthRatio="0.4"
+        app:layout_aspect="0.5"
+        android:layout_gravity="center"
+        android:background="@color/colorAccent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@+id/statusBarColor"
+        android:text="状态栏颜色"
+        android:textColor="#ffffff"
+        android:layout_gravity="bottom|right"
+        app:layout_widthRatio="0.3"
+        app:layout_aspect="1"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</com.example.effect.widget.PercentFrameLayout>

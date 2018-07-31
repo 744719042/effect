@@ -5,9 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ProgressBar;
-
-import com.example.effect.widget.CollapsePageView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button progressBar;
@@ -19,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button optionBar;
     private Button nineGrids;
     private Button parallex;
+    private Button percent;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,6 +40,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         nineGrids.setOnClickListener(this);
         parallex = findViewById(R.id.parallex);
         parallex.setOnClickListener(this);
+        percent = findViewById(R.id.percent);
+        percent.setOnClickListener(this);
     }
 
     @Override
@@ -72,6 +72,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (view == parallex) {
             Intent intent = new Intent(this, ParallexActivity.class);
+            startActivity(intent);
+        } else if (view == percent) {
+            Intent intent = new Intent(this, PercentActivity.class);
             startActivity(intent);
         }
     }
