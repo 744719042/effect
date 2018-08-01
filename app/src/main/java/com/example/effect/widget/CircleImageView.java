@@ -43,7 +43,7 @@ public class CircleImageView extends AppCompatImageView {
             TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.CircleImageView);
             circleWidth = (int) typedArray.getDimension(R.styleable.CircleImageView_circle_width, 0);
             circleColor = typedArray.getColor(R.styleable.CircleImageView_circle_color, Color.WHITE);
-            drawable = typedArray.getResourceId(R.styleable.CircleImageView_android_src, R.drawable.blue);
+            drawable = typedArray.getResourceId(R.styleable.CircleImageView_android_src, R.drawable.blue_lover);
             setImageResource(drawable);
             typedArray.recycle();
         }

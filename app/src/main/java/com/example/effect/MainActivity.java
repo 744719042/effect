@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Button optionBar;
     private Button nineGrids;
     private Button parallex;
+    private Button bezier;
     private Button percent;
 
     @Override
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         parallex.setOnClickListener(this);
         percent = findViewById(R.id.percent);
         percent.setOnClickListener(this);
+        bezier = findViewById(R.id.bezier);
+        bezier.setOnClickListener(this);
     }
 
     @Override
@@ -75,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         } else if (view == percent) {
             Intent intent = new Intent(this, PercentActivity.class);
+            startActivity(intent);
+        } else if (view == bezier) {
+            Intent intent = new Intent(this, BezierActivity.class);
             startActivity(intent);
         }
     }
