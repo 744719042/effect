@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Intent intent = new Intent(this, ParallexActivity.class);
             startActivity(intent);
         } else if (view == percent) {
-            Intent intent = new Intent(this, PercentActivity.class);
+            Intent intent = new Intent(this, ScrollViewActivity.class);
             startActivity(intent);
         } else if (view == bezier) {
             Intent intent = new Intent(this, BezierActivity.class);

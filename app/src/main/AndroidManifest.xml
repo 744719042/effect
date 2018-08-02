@@ -28,7 +28,8 @@
         <activity android:name=".NineGridsActivity" />
         <activity android:name=".ParallexActivity" />
         <activity android:name=".PercentActivity" />
-        <activity android:name=".BezierActivity"></activity>
+        <activity android:name=".BezierActivity" />
+        <activity android:name=".ScrollViewActivity"></activity>
     </application>
 
 </manifest>
